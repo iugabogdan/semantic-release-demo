@@ -19,6 +19,8 @@ npm run release
 
 This will initiate the semantic-release process, which will automatically determine the next version number based on the content of your commit messages, create a new tag, and publish the release to GitHub.
 
+Or simply push into main and a workflow will be triggered.
+
 ### Usage
 Semantic-release works by analyzing the content of commit messages to determine the type of release that should be created (major, minor, or patch), as well as the version number. To create a release using semantic-release, you simply need to follow a few simple rules when writing commit messages:
 
