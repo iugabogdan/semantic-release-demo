@@ -15,5 +15,5 @@ jobs:
         run: npm install
       - name: Semantic-Release
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ GITHUB_TOKEN }}
         run: npm run release
