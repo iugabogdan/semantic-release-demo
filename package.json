@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/iugabogdan/semantic-release-demo.git"
   },
+  "scripts": {
+    "release": "npx semantic-release"
+  },
   "devDependencies": {
     "semantic-release": "^19.0.5",
     "@semantic-release/commit-analyzer": "^8.0.2",
